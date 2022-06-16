@@ -17,18 +17,29 @@ export default function Home() {
                 </Row>
             </Container>
             <Container>
-                <Card style={{marginTop: '50px'}}>
-                    <CardTitle style={{paddingBottom: '0px', marginTop: '30px', marginLeft: '5px'}}>
-                        <h2>Welcome To my Page!</h2>
-                    </CardTitle>
-                
+                <Row>
+                    <Col xs="6">
+                        <Card className='Card' style={{marginTop: '50px'}}>
+                            <CardTitle style={{paddingBottom: '0px', marginTop: '30px', marginLeft: '5px'}}>
+                                <h2>Welcome To my Page!</h2>
+                            </CardTitle>
                         
-                    <CardBody style={{marginTop: '0px', paddingTop: '0px'}}>
-                        <p style={{ marginTop: "150px", fontSize: "20px" }}>I'm Software Engineer with a background in undergrad engineering disciplines pertaining to Microelectronics and Aerospace engineering.
-                            My experience helps me succeed in the field of Software Development and Engineering by practicing and maintaining the Engineering Design and Development process,
-                            allowing me to approach problems with a semantic method. I am extremely excited to begin my journey in this field and cant wait to connect with fellow engineers!</p>
-                    </CardBody>
-                </Card>
+                                
+                            <CardBody style={{marginTop: '0px', paddingTop: '0px'}}>
+                                <p style={{ marginTop: "150px", fontSize: "20px" }}>I'm Software Engineer with a background in undergrad engineering disciplines pertaining to Microelectronics and Aerospace engineering.
+                                    My experience helps me succeed in the field of Software Development and Engineering by practicing and maintaining the Engineering Design and Development process,
+                                    allowing me to approach problems with a semantic method. I am extremely excited to begin my journey in this field and cant wait to connect with fellow engineers!</p>
+                            </CardBody>
+                        </Card>
+                    </Col >
+                    <Col>
+                        <Card className='Card' style={{marginTop: '50px'}}>
+                            <CardBody>
+                                Img goes here 
+                            </CardBody>
+                        </Card>
+                    </Col>
+                </Row>
             </Container>
         </div>
     )

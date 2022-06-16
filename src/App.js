@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Offcanvas style={{ height: "100px" }} direction='top' isOpen={isActive} onClick={handleNav}>
-        <OffcanvasBody style={{ opacity: "1" }}>
+        <OffcanvasBody className='Card' style={{ opacity: "1" }}>
           <Container>
             <Row>
               <Col>

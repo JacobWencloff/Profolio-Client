@@ -1,0 +1,15 @@
+.App{
+    background-color: #2D2F30;
+    color: white;
+}
+.Card{
+    background-color: #656364;
+    
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+html { 
+    background-color: #2D2F30;
+  }
