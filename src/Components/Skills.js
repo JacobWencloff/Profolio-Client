@@ -19,28 +19,28 @@ export default function Skills() {
           <Col>
             <Card>
               <CardBody>
-                <CardImg alt="HTML5 Badge" src='./HTML5_Logo_128.png' />
+                <CardImg alt="HTML5 Badge" src='./HTMLPIC.png' />
               </CardBody>
             </Card>
           </Col>
           <Col>
             <Card>
               <CardBody>
-              <CardImg alt="CSS3 Badge" src='./css.png' />
+              <CardImg alt="CSS3 Badge" src='./CSSIMG.png' />
               </CardBody>
             </Card>
           </Col>
           <Col>
             <Card>
               <CardBody>
-
+                <CardImg alt="JavaScript Badge" src="./JAVASCRIPTIMG.png" />
               </CardBody>
             </Card>
           </Col>
           <Col>
             <Card>
               <CardBody>
-
+                <CardImg alt="JavaScript Badge" src="./ReactImg.png" />
               </CardBody>
             </Card>
           </Col>
@@ -49,14 +49,14 @@ export default function Skills() {
           <Col>
             <Card>
               <CardBody>
-                
+                <CardImg alt="JavaScript Badge" src="./MongoDBIMG.png" />
               </CardBody>
             </Card>
           </Col>
           <Col>
             <Card>
               <CardBody>
-
+                <CardImg alt="JavaScript Badge" src="./ExpressImg.png" />
               </CardBody>
             </Card>
           </Col>

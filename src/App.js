@@ -58,7 +58,7 @@ function App() {
           <Col sm="11">
           </Col>
           <Col sm="1">
-            <Button onClick={handleNav}>{hamburger}</Button>
+            <Button style={{marginTop: '10px'}} onClick={handleNav}>{hamburger}</Button>
           </Col>
         </Row>
       </Container>
