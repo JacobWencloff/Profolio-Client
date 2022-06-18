@@ -31,22 +31,22 @@ function App() {
             <Row>
               <Col>
                 <Link to="/Skills">
-                  <Button style={{ opacity: "1" }}>Skills</Button>
+                  <Button className='nav-drop-shadow' style={{ opacity: "1" }}>Skills</Button>
                 </Link>
               </Col>
               <Col>
                 <Link to="/Projects">
-                  <Button>Projects</Button>
+                  <Button className='nav-drop-shadow'>Projects</Button>
                 </Link>
               </Col>
               <Col>
                 <Link to="/ContactMe">
-                  <Button>Contact Me</Button>
+                  <Button className='nav-drop-shadow'>Contact Me</Button>
                 </Link>
               </Col>
               <Col>
               <Link to="/">
-                <Button>Home</Button>
+                <Button className='nav-drop-shadow'>Home</Button>
               </Link>
               </Col>
             </Row>
@@ -58,7 +58,7 @@ function App() {
           <Col sm="11">
           </Col>
           <Col sm="1">
-            <Button style={{marginTop: '10px'}} onClick={handleNav}>{hamburger}</Button>
+            <Button className='drop-shadow' style={{marginTop: '10px'}} onClick={handleNav}>{hamburger}</Button>
           </Col>
         </Row>
       </Container>

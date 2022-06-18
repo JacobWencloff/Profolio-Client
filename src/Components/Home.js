@@ -9,16 +9,17 @@ export default function Home() {
             <Container>
                 <Row>
                     <Col sm="11">
-                        <h1>Jacob Wencloff</h1>
+                        <h1 className='text-shadow'>Jacob Wencloff</h1>
                     </Col>
                 </Row>
                 <Row>
-                    <h5>A Software Development Engineer</h5>
+                    <h5 className='text-shadow'>A Software Development Engineer</h5>
                 </Row>
             </Container>
             <Container>
                 <Row>
                     <Col xs="6">
+                        <div className='drop-shadow'>
                         <Card className='Card' style={{marginTop: '50px'}}>
                             <CardTitle style={{paddingBottom: '0px', marginTop: '30px', marginLeft: '5px'}}>
                                 <h2>Welcome To my Page!</h2>
@@ -31,9 +32,10 @@ export default function Home() {
                                     allowing me to approach problems with a semantic method. I am extremely excited to begin my journey in this field and cant wait to connect with fellow engineers!</p>
                             </CardBody>
                         </Card>
+                        </div>
                     </Col >
                     <Col>
-                        <Card className='Card' style={{marginTop: '50px'}}>
+                        <Card className='Card drop-shadow' style={{marginTop: '50px'}}>
                             <CardBody>
                                 Img goes here 
                             </CardBody>
