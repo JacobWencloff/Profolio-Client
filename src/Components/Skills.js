@@ -33,7 +33,7 @@ const [isDisplayed, setIsDisplayed] = useState({
         <Row>
           <p className='text-shadow'>Through my education at General Assembly, along with self driven passion projects, i've learned several computer
             languages and supporting libraries along with the ability to inpliment CRUD and a RESTful API interface!
-            Below is a list of all of my current skills and practices </p>
+            Below is a list of all of my current skills and practices. Click on the cards starting with JS to see an explination of how i've used each skill!</p>
         </Row>
         <Row>
           <Col>
