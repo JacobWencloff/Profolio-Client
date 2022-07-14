@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div>
       <Container>
-        <Card style={{marginTop: "10px", color: "black"}}>
+        <Card className="Card" style={{marginTop: "10px"}}>
           <CardHeader tag="h5">
             TasQue
           </CardHeader>
@@ -24,7 +24,7 @@ export default function Projects() {
           </CardBody>
 
         </Card>
-        <Card style={{marginTop: "10px", color: "black"}}>
+        <Card className="Card" style={{marginTop: "10px"}}>
           <CardHeader tag="h5">
             SomBase
           </CardHeader>
@@ -40,7 +40,7 @@ export default function Projects() {
           other information that the employee can view in order to make a recommendation on any wine served in the establishment.
           </CardBody>
         </Card>
-        <Card style={{marginTop: "10px", color: "black"}}>
+        <Card className="Card" style={{marginTop: "10px"}}>
           <CardHeader tag="h5">
             Algo Viz
           </CardHeader>
