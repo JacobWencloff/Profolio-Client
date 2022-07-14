@@ -41,11 +41,13 @@ const [isDisplayed, setIsDisplayed] = useState({
             <Card  className="Card drop-shadow" onClick={handlePopOver}>
               <CardBody>
                 <CardImg id='html' alt="HTML5 Badge" src='./HTMLPIC.png' />
+
                 <UncontrolledPopover flip target='html' trigger='click'>
                   <PopoverBody>
                     html
                   </PopoverBody>
                 </UncontrolledPopover>
+
               </CardBody>
             </Card>
 
@@ -55,11 +57,13 @@ const [isDisplayed, setIsDisplayed] = useState({
             <Card  className="Card drop-shadow" onClick={handlePopOver}>
               <CardBody>
                 <CardImg id='css' alt="CSS3 Badge" src='./CSSIMG.png' />
+
                 <UncontrolledPopover flip target='css' trigger='focus'>
                   <PopoverBody>
                     css
                   </PopoverBody>
                 </UncontrolledPopover>
+
               </CardBody>
             </Card>
 
@@ -69,6 +73,7 @@ const [isDisplayed, setIsDisplayed] = useState({
             <Card  className="Card drop-shadow" onClick={handlePopOver}>
               <CardBody>
                 <CardImg id='js' alt="JavaScript Badge" src="./JAVASCRIPTIMG.png" />
+
                 <UncontrolledPopover flip target='js' trigger='click'>
                   <PopoverHeader>
                     JavaScript
@@ -77,6 +82,7 @@ const [isDisplayed, setIsDisplayed] = useState({
                     JavaScript has provided me the ability to interprate and use UserInputed data from a click to a text entry into a form, along with this JS has also allowed me to minipulate the DOM in ways unimaginable without.
                   </PopoverBody>
                 </UncontrolledPopover>
+                
             </CardBody>
             </Card>
 
@@ -158,8 +164,11 @@ const [isDisplayed, setIsDisplayed] = useState({
                 <CardImg id='sql' alt='SQL image' src='./SQL.png' />
                 
                 <UncontrolledPopover flip target='sql' trigger='click'> 
+                   <PopoverHeader>
+                    My SQL
+                   </PopoverHeader>
                    <PopoverBody>
-                    hello world
+                    I've used My SQL to create relational databases to make applications like account management solutions.
                   </PopoverBody>
                 </UncontrolledPopover>
             </CardBody>
