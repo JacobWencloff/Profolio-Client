@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Container, Row, Col, Button, Card, CardBody, CardHeader, CardTitle } from 'reactstrap'
+import { Container, Row, Col, Button, Card, CardBody, CardHeader, CardTitle, CardImg } from 'reactstrap'
 
 
 export default function Home() {
@@ -37,7 +37,7 @@ export default function Home() {
                     <Col>
                         <Card className='Card drop-shadow' style={{marginTop: '50px'}}>
                             <CardBody>
-                                Img goes here 
+                                <CardImg src="./ProfilePicture.png" />
                             </CardBody>
                         </Card>
                     </Col>
