@@ -33,7 +33,7 @@ export default function Projects() {
           </CardSubtitle>
           <CardBody>
 
-          <CardImg />
+          <CardImg alt="Som Base Image" src='./SomBase.png' width="100%" height="100%" />
 
           SomeBase is an application intended to be used in the food service industry in addition / collaboration to a POS terminal. This application is 
           used partially by a restaurant manager, who has access to the backend database of wines, each wine entered would have a description, and various 
@@ -49,7 +49,7 @@ export default function Projects() {
           </CardSubtitle>
           <CardBody>
 
-          <CardImg />
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/b2sKbZ90LSk" title="Algo-Viz 0.0.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           AlgoViz is a desktop application intended to aid a student in the learning process of DataStructures and Algorithms by visualizing how various 
           algorithms affect and mutate a dataset. This project was built using OpenGL, PyGame, and C++ Library with a wrapper for python called PyImGUI.
