@@ -37,7 +37,7 @@ export default function Home() {
                     <Col>
                         <Card className='Card drop-shadow' style={{marginTop: '50px'}}>
                             <CardBody>
-                                <CardImg src="./ProfilePicture.png" />
+                                <CardImg src="./ProfilePicture.JPG" />
                             </CardBody>
                         </Card>
                     </Col>
