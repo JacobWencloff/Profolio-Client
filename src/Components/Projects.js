@@ -33,7 +33,7 @@ export default function Projects() {
           </CardSubtitle>
           <CardBody>
 
-          <CardImg alt="Som Base Image" src='./SomBase.png' width="100%" height="100%" />
+          <CardImg alt="Som Base Image" src='./SomBaseSS.png' width="100%" height="100%" />
 
           SomeBase is an application intended to be used in the food service industry in addition / collaboration to a POS terminal. This application is 
           used partially by a restaurant manager, who has access to the backend database of wines, each wine entered would have a description, and various 
