@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardHeader, CardImg, CardSubtitle, Container, CardBody, CardText } from 'reactstrap'
+import { Card, CardHeader, CardImg, CardSubtitle, Container, CardBody, CardText, CardFooter, CardLink } from 'reactstrap'
 
 export default function Projects() {
   return (
@@ -22,7 +22,11 @@ export default function Projects() {
           application also allows a user to create an in depth ToDo list, allowing the user to categorize their tasks in order to maintain a steady and 
           streamlined workflow.
           </CardBody>
-
+          <CardFooter>
+            <CardLink href="https://jacobwencloff.github.io/TasQues/" target="_blank">
+              Find it here!
+            </CardLink>
+          </CardFooter>
         </Card>
         <Card className="Card" style={{marginTop: "10px"}}>
           <CardHeader tag="h5">
@@ -39,6 +43,11 @@ export default function Projects() {
           used partially by a restaurant manager, who has access to the backend database of wines, each wine entered would have a description, and various 
           other information that the employee can view in order to make a recommendation on any wine served in the establishment.
           </CardBody>
+          <CardFooter>
+            <CardLink href="https://veggie-tales00.github.io/Project3-Client/" target="_blank">
+              Find it here!
+            </CardLink>
+          </CardFooter>
         </Card>
         <Card className="Card" style={{marginTop: "10px"}}>
           <CardHeader tag="h5">
@@ -54,6 +63,11 @@ export default function Projects() {
           AlgoViz is a desktop application intended to aid a student in the learning process of DataStructures and Algorithms by visualizing how various 
           algorithms affect and mutate a dataset. This project was built using OpenGL, PyGame, and C++ Library with a wrapper for python called PyImGUI.
           </CardBody>
+          <CardFooter>
+            <CardLink href="https://jacobwencloff.github.io/Algo-Viz-Client/" target="_blank">
+              Find it here!
+            </CardLink>
+          </CardFooter>
         </Card>
       </Container>
     </div>
